@@ -31,7 +31,7 @@ data:
     receivers:
     - name: 'auto-scaling'
       webhook_configs:
-      - url: 'http://1.1.1.1:8080/alert/autoscaling'
+      - url: 'http://1.1.1.1:8080/cloudapi/api/v1/autoscaling'
 
     ## Examples of alternative alert receivers. See documentation for more info on how to configure these fully
     #- name: 'pagerduty-dba'

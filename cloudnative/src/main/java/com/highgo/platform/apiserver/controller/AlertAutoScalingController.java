@@ -38,7 +38,7 @@ import java.util.List;
  * @Description: alert
  */
 @RestController
-@RequestMapping("${common.alert-path-prefix}")
+@RequestMapping("${common.request-path-prefix}/${common.version}")
 @Slf4j
 public class AlertAutoScalingController {
 
